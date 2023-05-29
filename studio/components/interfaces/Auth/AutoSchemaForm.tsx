@@ -30,7 +30,7 @@ const AutoSchemaForm = observer(() => {
     SECURITY_REFRESH_TOKEN_REUSE_INTERVAL: authConfig.config.SECURITY_REFRESH_TOKEN_REUSE_INTERVAL,
     SECURITY_CAPTCHA_ENABLED: authConfig.config.SECURITY_CAPTCHA_ENABLED || false,
     SECURITY_CAPTCHA_SECRET: authConfig.config.SECURITY_CAPTCHA_SECRET || '',
-    MAX_ENROLLED_FACTORS: authConfig.config.MAX_ENROLLED_FACTORS,
+    MFA_MAX_ENROLLED_FACTORS: authConfig.config.MFA_MAX_ENROLLED_FACTORS || 10,
   }
 
   const schema = object({
@@ -48,7 +48,7 @@ const AutoSchemaForm = observer(() => {
       is: true,
       then: string().required('Must have a hCaptcha secret'),
     }),
-    MAX_ENROLLED_FACTORS: number()
+    MFA_MAX_ENROLLED_FACTORS: number()
       .min(0, 'Must be be a value more than 0')
       .max(30, 'Must be a value less than 30'),
   })
@@ -191,7 +191,7 @@ const AutoSchemaForm = observer(() => {
               >
                 <FormSectionContent loading={!isLoaded}>
                   <InputNumber
-                    id="MAX_ENROLLED_FACTORS"
+                    id="MFA_MAX_ENROLLED_FACTORS"
                     size="small"
                     label="Maximum number of enrolled factors"
                     disabled={!canUpdateConfig}
