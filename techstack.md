@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 reconsumeralization/supabase is built on the following main stack:
+
 - [Stripe](https://stripe.com) – Payment Services
 - [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -48,11 +49,13 @@ reconsumeralization/supabase is built on the following main stack:
 - [Algolia](https://www.algolia.com/?utm_source=stackshare&utm_medium=referral) – Search as a Service
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 reconsumeralization/supabase is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
 - <img width='25' height='25' src='https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png' alt='Sentry'/> [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -99,14 +102,15 @@ reconsumeralization/supabase is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png' alt='Algolia'/> [Algolia](https://www.algolia.com/?utm_source=stackshare&utm_medium=referral) – Search as a Service
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [reconsumeralization/supabase](https://github.com/reconsumeralization/supabase)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|163<br/>Tools used|11/09/23 <br/>Report generated|
+|164<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -578,9 +582,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (110)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (111)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (103)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (104)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -686,6 +690,7 @@ Full tech stack [here](/techstack.md)
 |[unist-util-visit](https://www.npmjs.com/unist-util-visit)|v2.0.3|06/01/23|Greg Richardson |MIT|N/A|
 |[vue](https://www.npmjs.com/vue)|v3.2.41|10/19/22|thorwebdev |MIT|N/A|
 |[yargs](https://www.npmjs.com/yargs)|v17.7.1|05/30/23|sd0 |MIT|N/A|
+|[yup](https://www.npmjs.com/yup)|v0.32.11|11/22/20|Paul Copplestone |MIT|N/A|
 |[zone.js](https://www.npmjs.com/zone.js)|v0.11.8|10/19/22|thorwebdev |MIT|N/A|
 
 
@@ -704,7 +709,7 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[matplotlib](https://pypi.org/matplotlib)|v3.7.1|05/29/23|thorwebdev |Python-2.0|N/A|
+|[matplotlib](https://pypi.org/project/matplotlib)|v3.7.1|05/29/23|thorwebdev |Python-2.0|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png'/> Apache Maven (1)
@@ -716,4 +721,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
