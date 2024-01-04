@@ -1,11 +1,12 @@
 repo_name: reconsumeralization/supabase
 report_id: 20da0c7310711a9bbcf3bdf54ce4ca85
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:31:29+00:00'
+timestamp: '2024-01-04T15:05:27+00:00'
 requested_by: kiwicopple
 provider: github
 branch: master
-detected_tools_count: 163
+detected_tools_count: 164
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/reconsumeralization/supabase
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/reconsumeralization/supabase
   detection_source: Repo Metadata
 - name: Kotlin
   description: Statically typed Programming Language targeting JVM and JavaScript
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/flutter-mfa/android/app/src/main/kotlin/com/example/mfa_app/MainActivity.kt
   detection_source: examples/auth/flutter-mfa/android/app/src/main/kotlin/com/example/mfa_app/MainActivity.kt
   last_updated_by: dshukertjr
   last_updated_on: 2023-05-04 10:01:01.000000000 Z
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/reconsumeralization/supabase
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -55,7 +60,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: tests/supabase/migrations/data.sql
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/www/schema.sql
+  detection_source: apps/www/schema.sql
   last_updated_by: Alaister Young
   last_updated_on: 2022-03-22 09:20:56.000000000 Z
 - name: TypeScript
@@ -67,6 +73,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/reconsumeralization/supabase
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -78,6 +85,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/studio/package.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2021-11-25 16:55:33.000000000 Z
@@ -90,6 +98,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/flutter-user-management/android/app/build.gradle
   detection_source: examples/user-management/flutter-user-management/android/app/build.gradle
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:24:01.000000000 Z
@@ -103,7 +112,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -115,7 +124,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/www/package.json
+  detection_source: apps/www/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 13:05:20.000000000 Z
 - name: Flutter
@@ -127,7 +137,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Mobile Development
   image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
-  detection_source: examples/user-management/flutter-user-management/pubspec.yaml
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/flutter-mfa/pubspec.yaml
+  detection_source: examples/auth/flutter-mfa/pubspec.yaml
   last_updated_by: dshukertjr
   last_updated_on: 2023-05-04 10:01:01.000000000 Z
 - name: MobX
@@ -140,7 +151,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/5302/17475736.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2021-11-25 16:55:33.000000000 Z
@@ -153,8 +164,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Copple
   last_updated_on: 2022-04-18 15:26:20.000000000 Z
 - name: Node.js
@@ -166,7 +177,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: tests/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/docs/package.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-02-03 08:10:13.000000000 Z
 - name: React
@@ -179,8 +191,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-01-28 05:15:14.000000000 Z
 - name: React Native
@@ -193,7 +205,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Mobile Development
   image_url: https://img.stackshare.io/service/2699/KoK6gHzp.jpg
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
   detection_source: examples/user-management/expo-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -206,7 +218,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
-  detection_source_url: examples/todo-list/nextjs-todo-list/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/todo-list/nextjs-todo-list/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -220,8 +232,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
-  detection_source_url: package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: packages/ui/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2023-05-20 06:29:37.000000000 Z
 - name: Svelte
@@ -233,7 +245,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
-  detection_source: examples/user-management/sveltekit-user-management/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/todo-list/sveltejs-todo-list/package.json
+  detection_source: examples/todo-list/sveltejs-todo-list/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
 - name: Vue.js
@@ -246,7 +259,7 @@ tools:
   category: Libraries
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3837/paeckCWC.png
-  detection_source_url: examples/user-management/nuxt3-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/nuxt3-user-management/package-lock.json
   detection_source: examples/user-management/vue3-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -258,6 +271,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/9878/react-beautiful-dnd-logo.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/studio/package.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2023-03-31 09:06:43.000000000 Z
@@ -269,6 +283,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Query Languages
   image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/studio/package.json
   detection_source: studio/package.json
   last_updated_by: Alaister Young
   last_updated_on: 2023-02-17 05:59:46.000000000 Z
@@ -282,8 +297,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Terry Sutton
   last_updated_on: 2022-10-21 12:33:32.000000000 Z
 - name: Docker
@@ -295,6 +310,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/reconsumeralization/supabase
   detection_source: Repo Metadata
 - name: Dotenv
   description: Loads environment variables from .env for Nodejs projects
@@ -305,6 +321,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/docs/package.json
   detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-01-27 20:10:28.000000000 Z
@@ -317,7 +334,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: tests/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/docs/package.json
+  detection_source: apps/docs/package.json
   last_updated_by: Copple
   last_updated_on: 2022-04-18 15:26:20.000000000 Z
 - name: Git
@@ -328,6 +346,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/reconsumeralization/supabase
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -337,7 +356,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/ui-tests.yml"
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/.github/workflows/avoid-typos.yml
+  detection_source: ".github/workflows/avoid-typos.yml"
   last_updated_by: Sara Tavares
   last_updated_on: 2023-01-27 00:09:02.000000000 Z
 - name: Gradle
@@ -349,6 +369,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/flutter-mfa/android/app/build.gradle
   detection_source: examples/auth/flutter-mfa/android/app/build.gradle
   last_updated_by: dshukertjr
   last_updated_on: 2023-05-04 10:01:01.000000000 Z
@@ -360,6 +381,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -373,8 +395,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: package-lock.json
-  detection_source: tests/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/www/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-11-22 09:58:32.000000000 Z
 - name: Karma
@@ -387,7 +409,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -399,6 +421,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/studio/package.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2021-11-25 16:55:33.000000000 Z
@@ -410,7 +433,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Tools for GitHub
   image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
-  detection_source: apps/www/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/docs/package.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-04-24 23:49:00.000000000 Z
 - name: Prettier
@@ -423,8 +447,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
+  detection_source: examples/user-management/expo-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
 - name: PyPI
@@ -435,6 +459,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/ai/image_search/pyproject.toml
   detection_source: examples/ai/image_search/pyproject.toml
   last_updated_by: thorwebdev
   last_updated_on: 2023-05-29 06:18:27.000000000 Z
@@ -446,6 +471,7 @@ tools:
   category: Monitoring
   sub_category: Exception Monitoring
   image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/studio/package.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2022-08-02 16:43:34.000000000 Z
@@ -457,6 +483,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Realtime Code Collaboration
   image_url: https://img.stackshare.io/service/7894/jEKFRPKV_400x400.jpg
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/docker/docker-compose.yml
   detection_source: docker/docker-compose.yml
   last_updated_by: Filipe Cabaco
   last_updated_on: 2023-04-03 11:40:36.000000000 Z
@@ -470,7 +497,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: apps/www/webpack.config.js
   last_updated_by: mildtomato
   last_updated_on: 2020-11-26 05:47:51.000000000 Z
@@ -482,6 +509,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/docs/package.json
   detection_source: apps/docs/package.json
   last_updated_by: Copple
   last_updated_on: 2022-04-18 15:26:20.000000000 Z
@@ -493,6 +521,7 @@ tools:
   category: Application Hosting
   sub_category: Serverless / Task Processing
   image_url: https://img.stackshare.io/service/10738/serverless-RealtimeApp-logo.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/docker/docker-compose.yml
   detection_source: docker/docker-compose.yml
   last_updated_by: Lakshan Perera
   last_updated_on: 2023-04-11 10:27:29.000000000 Z
@@ -505,7 +534,7 @@ tools:
   category: Application Utilities
   sub_category: Search as a Service
   image_url: https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/docs/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2022-10-29 05:09:39.000000000 Z
@@ -517,6 +546,7 @@ tools:
   category: Payments
   sub_category: Payment Services
   image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/studio/package.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2022-03-19 10:50:24.000000000 Z
@@ -528,6 +558,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/flutter-user-management/android/app/build.gradle
   detection_source: examples/user-management/flutter-user-management/android/app/build.gradle
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:24:01.000000000 Z
@@ -539,7 +570,8 @@ tools:
   category: Libraries
   sub_category: CocoaPods Packages
   image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
-  detection_source: examples/user-management/flutter-user-management/ios/Podfile.lock
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/flutter-mfa/ios/Podfile.lock
+  detection_source: examples/auth/flutter-mfa/ios/Podfile.lock
   last_updated_by: dshukertjr
   last_updated_on: 2023-05-04 10:01:01.000000000 Z
 - name: Formik
@@ -552,7 +584,7 @@ tools:
   category: Application Utilities
   sub_category: Web Forms
   image_url: https://img.stackshare.io/service/8846/preview.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: packages/ui/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2022-09-19 10:23:22.000000000 Z
@@ -565,6 +597,7 @@ tools:
   category: Application Utilities
   sub_category: API Gateway
   image_url: https://ucarecdn.com/3cf09daa-4e1e-404e-a612-f8a91c661db2/
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/docker/docker-compose.yml
   detection_source: docker/docker-compose.yml
   last_updated_by: Paul Copplestone
   last_updated_on: 2021-01-28 05:19:57.000000000 Z
@@ -577,8 +610,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: examples/todo-list/nextjs-todo-list/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/todo-list/nextjs-todo-list/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Terry Sutton
   last_updated_on: 2022-10-21 12:33:32.000000000 Z
 - name: Nodemailer
@@ -589,6 +622,7 @@ tools:
   category: Communications
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/www/package.json
   detection_source: apps/www/package.json
   last_updated_by: Alaister Young
   last_updated_on: 2022-03-30 14:23:00.000000000 Z
@@ -601,6 +635,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/reconsumeralization/supabase
   detection_source: Repo Metadata
 - name: date-fns
   description: Modern JavaScript date utility library
@@ -611,6 +646,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/www/package.json
   detection_source: apps/www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-11-23 14:42:30.000000000 Z
@@ -619,7 +655,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10756/339286.png
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/www/package.json
+  detection_source: apps/www/package.json
   last_updated_by: Paul Copplestone
   last_updated_on: 2020-11-22 09:58:32.000000000 Z
 - name: zxcvbn
@@ -627,6 +664,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7797/559357.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/studio/package.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2021-11-25 16:55:33.000000000 Z
@@ -640,7 +678,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -654,7 +692,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -668,7 +706,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -682,7 +720,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -696,7 +734,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -710,7 +748,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -724,7 +762,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -738,7 +776,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -752,7 +790,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -766,7 +804,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -780,8 +818,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
+  detection_source: examples/user-management/expo-user-management/package.json
   last_updated_by: dannykng
   last_updated_on: 2022-09-16 17:13:18.000000000 Z
 - name: "@babel/preset-env"
@@ -794,7 +832,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: packages/ui/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2023-04-18 09:43:50.000000000 Z
@@ -808,7 +846,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: packages/ui/package.json
   last_updated_by: Qiao Han
   last_updated_on: 2023-06-01 03:26:28.000000000 Z
@@ -822,7 +860,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
   detection_source: packages/ui/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2023-05-08 16:45:52.000000000 Z
@@ -836,8 +874,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
-  detection_source_url: package-lock.json
-  detection_source: apps/www/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Chase Granberry
   last_updated_on: 2023-03-28 17:50:18.000000000 Z
 - name: "@sentry/browser"
@@ -850,7 +888,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18385/default_3918a37cf2f76449e061a2c79fb02113faa1391a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2022-08-02 16:43:34.000000000 Z
@@ -864,8 +902,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: packages/ui/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2023-05-20 06:29:37.000000000 Z
 - name: "@storybook/addon-links"
@@ -878,7 +916,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Francisco Mazzoni
   last_updated_on: 2022-08-09 13:23:44.000000000 Z
@@ -893,8 +931,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
-  detection_source_url: package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: packages/ui/package.json
   last_updated_by: Qiao Han
   last_updated_on: 2023-06-01 03:26:28.000000000 Z
 - name: "@testing-library/jest-dom"
@@ -907,8 +945,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: package-lock.json
-  detection_source: packages/ui/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: examples/edge-functions/app/package.json
   last_updated_by: dannykng
   last_updated_on: 2022-09-16 17:13:18.000000000 Z
 - name: "@testing-library/react"
@@ -922,8 +960,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: examples/edge-functions/app/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-11 02:11:47.000000000 Z
 - name: "@testing-library/react-hooks"
@@ -937,7 +975,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17877/default_d41d3b5a213e129d6ea411e77eecb13f54b6aea5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2023-03-31 09:06:43.000000000 Z
@@ -951,7 +989,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2022-09-22 15:37:37.000000000 Z
@@ -965,7 +1003,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -979,8 +1017,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: package-lock.json
-  detection_source: tests/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2022-09-22 15:37:37.000000000 Z
 - name: "@types/lodash"
@@ -993,8 +1031,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: spec/parser/package.json
   last_updated_by: Copple
   last_updated_on: 2022-09-23 09:40:07.000000000 Z
 - name: "@types/marked"
@@ -1007,7 +1045,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17650/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2022-10-07 16:38:55.000000000 Z
@@ -1021,8 +1059,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
-  detection_source: tests/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-06-01 00:39:18.000000000 Z
 - name: "@types/react"
@@ -1035,8 +1073,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-06-01 00:39:18.000000000 Z
 - name: "@types/react-dom"
@@ -1049,8 +1087,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
+  detection_source: apps/www/package.json
   last_updated_by: Francesco Sansalvadore
   last_updated_on: 2023-04-07 12:27:39.000000000 Z
 - name: "@types/react-native"
@@ -1063,7 +1101,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16569/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
   detection_source: examples/user-management/expo-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -1077,7 +1115,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Long Hoang
   last_updated_on: 2023-05-29 08:31:00.000000000 Z
@@ -1091,7 +1129,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Long Hoang
   last_updated_on: 2023-05-29 08:31:00.000000000 Z
@@ -1105,7 +1143,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
   detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-06-01 00:39:18.000000000 Z
@@ -1119,7 +1157,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: tests/package.json
   last_updated_by: egor-romanov
   last_updated_on: 2022-04-18 12:47:21.000000000 Z
@@ -1133,7 +1171,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
   detection_source: tests/package.json
   last_updated_by: egor-romanov
   last_updated_on: 2022-04-18 12:47:21.000000000 Z
@@ -1147,7 +1185,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2021-11-25 16:55:33.000000000 Z
@@ -1162,7 +1200,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17074/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-04-20 23:49:20.000000000 Z
@@ -1176,8 +1214,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-04-10 19:46:31.000000000 Z
 - name: babel-loader
@@ -1190,7 +1228,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: studio/package.json
   last_updated_by: TzeYiing
   last_updated_on: 2022-03-04 09:50:29.000000000 Z
@@ -1204,7 +1242,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17726/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Alaister Young
   last_updated_on: 2022-12-04 20:17:56.000000000 Z
@@ -1218,7 +1256,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/www/package.json
   last_updated_by: Copple
   last_updated_on: 2022-04-21 11:15:14.000000000 Z
@@ -1232,7 +1270,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2021-11-25 16:55:33.000000000 Z
@@ -1246,7 +1284,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
   detection_source: packages/ui/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2023-05-08 16:45:52.000000000 Z
@@ -1260,8 +1298,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17307/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
-  detection_source_url: package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: packages/ui/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-04-10 19:16:09.000000000 Z
 - name: concurrently
@@ -1274,8 +1312,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: examples/todo-list/nextjs-todo-list/package-lock.json
-  detection_source: examples/todo-list/sveltejs-todo-list/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/todo-list/nextjs-todo-list/package-lock.json
+  detection_source: examples/todo-list/nextjs-todo-list/package.json
   last_updated_by: Andrew Smith
   last_updated_on: 2023-02-22 14:41:36.000000000 Z
 - name: config
@@ -1287,7 +1325,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16353/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/apps/docs/package.json
+  detection_source: apps/docs/package.json
   last_updated_by: Chase Granberry
   last_updated_on: 2023-03-27 22:41:01.000000000 Z
 - name: copyfiles
@@ -1300,7 +1339,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16453/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: packages/ui/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2023-05-08 17:20:13.000000000 Z
@@ -1314,7 +1353,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17537/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
   detection_source: tests/package.json
   last_updated_by: egor-romanov
   last_updated_on: 2022-04-12 22:01:41.000000000 Z
@@ -1329,8 +1368,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
+  detection_source: apps/www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2022-09-06 15:38:51.000000000 Z
 - name: deepmerge
@@ -1343,7 +1382,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: examples/todo-list/sveltejs-todo-list/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/todo-list/sveltejs-todo-list/package-lock.json
   detection_source: packages/config/package.json
   last_updated_by: Copple
   last_updated_on: 2022-04-21 11:15:14.000000000 Z
@@ -1357,7 +1396,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/docs/package.json
   last_updated_by: Copple
   last_updated_on: 2022-04-18 15:26:20.000000000 Z
@@ -1371,7 +1410,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: packages/config/package.json
   last_updated_by: Copple
   last_updated_on: 2022-04-21 11:15:14.000000000 Z
@@ -1385,7 +1424,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
   detection_source: packages/config/package.json
   last_updated_by: Copple
   last_updated_on: 2022-04-21 11:15:14.000000000 Z
@@ -1399,7 +1438,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17801/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
   detection_source: examples/user-management/expo-user-management/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-04-12 05:43:25.000000000 Z
@@ -1413,7 +1452,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2022-11-10 05:54:39.000000000 Z
@@ -1427,7 +1466,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16795/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2022-09-14 15:47:33.000000000 Z
@@ -1441,7 +1480,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
   detection_source: packages/ui/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2023-04-12 06:53:10.000000000 Z
@@ -1455,8 +1494,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
-  detection_source: apps/www/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Terry Sutton
   last_updated_on: 2022-11-16 20:04:48.000000000 Z
 - name: gray-matter
@@ -1469,8 +1508,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17773/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
-  detection_source_url: package-lock.json
-  detection_source: apps/www/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Copple
   last_updated_on: 2022-04-26 12:17:19.000000000 Z
 - name: immutability-helper
@@ -1483,7 +1522,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17042/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2023-03-31 09:06:43.000000000 Z
@@ -1497,7 +1536,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -1511,8 +1550,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16908/default_9d2cf1136959e6b2caecf3db7c29f90a2e3bb587.png
-  detection_source_url: package-lock.json
-  detection_source: spec/parser/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-04-28 21:55:49.000000000 Z
 - name: jsrsasign
@@ -1526,7 +1565,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18778/default_3be76d99a52e16f70b30a0e5904930d202d7a045.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/docs/package.json
   last_updated_by: Terry Sutton
   last_updated_on: 2022-10-21 12:33:32.000000000 Z
@@ -1540,7 +1579,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -1554,7 +1593,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -1568,7 +1607,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -1582,7 +1621,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15999/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -1596,8 +1635,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17609/default_3a2c894d178d46e5b78f3e41ac6b2ced48b414c8.png
-  detection_source_url: package-lock.json
-  detection_source: apps/www/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-01-27 07:21:50.000000000 Z
 - name: marked
@@ -1610,7 +1649,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2022-10-07 16:38:55.000000000 Z
@@ -1624,7 +1663,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
   detection_source: apps/docs/package.json
   last_updated_by: Terry Sutton
   last_updated_on: 2022-10-21 12:33:32.000000000 Z
@@ -1638,7 +1677,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/docs/package.json
   last_updated_by: Chase Granberry
   last_updated_on: 2023-03-27 22:41:01.000000000 Z
@@ -1652,7 +1691,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17986/default_3c26cdeaec6eea61500856203ee8d97e81b93f76.png
-  detection_source_url: examples/user-management/nuxt3-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/nuxt3-user-management/package-lock.json
   detection_source: examples/user-management/nuxt3-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -1666,7 +1705,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18257/default_315a767553036d5263c95420817fe68cd3885651.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Alaister Young
   last_updated_on: 2023-01-10 16:34:18.000000000 Z
@@ -1681,7 +1720,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17945/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2021-11-25 16:55:33.000000000 Z
@@ -1695,7 +1734,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16316/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: examples/caching/with-cloudflare-workers-kv/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/caching/with-cloudflare-workers-kv/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2022-10-14 07:14:17.000000000 Z
@@ -1709,8 +1748,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
+  detection_source: apps/www/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 13:05:20.000000000 Z
   vulnerabilities:
@@ -1730,7 +1769,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16373/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: apps/www/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 13:05:20.000000000 Z
@@ -1744,7 +1783,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
   detection_source: packages/ui/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2023-05-08 16:45:52.000000000 Z
@@ -1758,8 +1797,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17254/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
-  detection_source_url: package-lock.json
-  detection_source: packages/ui/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-02-17 02:15:38.000000000 Z
 - name: react-datepicker
@@ -1772,7 +1811,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17239/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2023-03-31 09:06:43.000000000 Z
@@ -1786,7 +1825,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16710/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2023-03-31 09:06:43.000000000 Z
@@ -1800,7 +1839,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16799/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: studio/package.json
   last_updated_by: Joshen Lim
   last_updated_on: 2023-03-31 09:06:43.000000000 Z
@@ -1814,8 +1853,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-01-28 05:15:14.000000000 Z
 - name: react-ga
@@ -1828,7 +1867,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18260/default_e883f2ab27e3b57d1e2e1d1474b09e7351e11b54.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/www/package.json
   last_updated_by: Francesco Sansalvadore
   last_updated_on: 2023-04-07 12:27:39.000000000 Z
@@ -1842,8 +1881,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-01-28 05:15:14.000000000 Z
 - name: react-native
@@ -1856,7 +1895,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16064/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
-  detection_source_url: examples/user-management/expo-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/expo-user-management/package-lock.json
   detection_source: examples/user-management/expo-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -1870,7 +1909,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: examples/edge-functions/app/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/edge-functions/app/package.json
   detection_source: examples/edge-functions/app/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-11 02:11:47.000000000 Z
@@ -1885,8 +1924,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
-  detection_source_url: package-lock.json
-  detection_source: packages/ui/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-01-28 05:15:14.000000000 Z
 - name: react-tooltip
@@ -1899,8 +1938,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17696/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: package-lock.json
-  detection_source: packages/ui/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/www/package.json
   last_updated_by: Francesco Sansalvadore
   last_updated_on: 2023-04-07 12:27:39.000000000 Z
 - name: react-transition-group
@@ -1913,7 +1952,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/www/package.json
   last_updated_by: Francesco Sansalvadore
   last_updated_on: 2023-04-07 12:27:39.000000000 Z
@@ -1927,8 +1966,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18162/default_77d2e8738857baa38b19bd635d4e8653809e03e4.png
-  detection_source_url: package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2022-10-13 15:32:15.000000000 Z
 - name: remark
@@ -1941,8 +1980,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: package-lock.json
-  detection_source: apps/www/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-01-27 07:21:50.000000000 Z
 - name: sass
@@ -1955,8 +1994,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: examples/slack-clone/nextjs-slack-clone/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/slack-clone/nextjs-slack-clone/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Terry Sutton
   last_updated_on: 2022-10-21 12:33:32.000000000 Z
 - name: swiper
@@ -1970,7 +2009,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17656/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/www/package.json
   last_updated_by: Jonathan Summers-Muir
   last_updated_on: 2021-03-22 02:15:11.000000000 Z
@@ -1984,8 +2023,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: examples/slack-clone/nextjs-slack-clone/package-lock.json
-  detection_source: studio/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/slack-clone/nextjs-slack-clone/package-lock.json
+  detection_source: apps/www/package.json
   last_updated_by: Terry Sutton
   last_updated_on: 2022-10-20 16:03:42.000000000 Z
 - name: ts-jest
@@ -1999,8 +2038,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
-  detection_source: tests/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Stojan Dimitrovski
   last_updated_on: 2022-10-19 10:05:38.000000000 Z
 - name: ts-node
@@ -2013,8 +2052,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
-  detection_source: tests/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-04-20 23:49:20.000000000 Z
 - name: tslib
@@ -2027,8 +2066,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: examples/auth/nextjs/package-lock.json
-  detection_source: examples/user-management/sveltekit-user-management/package.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/nextjs/package-lock.json
+  detection_source: examples/todo-list/sveltejs-todo-list/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
 - name: unist-util-visit
@@ -2041,7 +2080,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
   detection_source: apps/docs/package.json
   last_updated_by: Greg Richardson
   last_updated_on: 2023-06-01 00:39:18.000000000 Z
@@ -2055,7 +2094,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: examples/user-management/nuxt3-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/nuxt3-user-management/package-lock.json
   detection_source: examples/user-management/vue3-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -2069,10 +2108,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: examples/todo-list/nextjs-todo-list/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/todo-list/nextjs-todo-list/package-lock.json
   detection_source: apps/docs/package.json
   last_updated_by: sd0
   last_updated_on: 2023-05-30 00:20:34.000000000 Z
+- name: yup
+  description: Dead simple Object schema validation
+  package_url: https://www.npmjs.com/yup
+  version: 0.32.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17215/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/package-lock.json
+  detection_source: apps/www/package.json
+  last_updated_by: Paul Copplestone
+  last_updated_on: 2020-11-22 09:58:32.000000000 Z
 - name: zone.js
   description: Zones for JavaScript
   package_url: https://www.npmjs.com/zone.js
@@ -2083,7 +2136,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
-  detection_source_url: examples/user-management/angular-user-management/package-lock.json
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/angular-user-management/package-lock.json
   detection_source: examples/user-management/angular-user-management/package.json
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:18:59.000000000 Z
@@ -2096,7 +2149,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/auth/flutter-mfa/pubspec.yaml
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/flutter-mfa/pubspec.yaml
   detection_source: examples/auth/flutter-mfa/pubspec.yaml
   last_updated_by: dshukertjr
   last_updated_on: 2023-05-04 10:01:01.000000000 Z
@@ -2109,7 +2162,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/realtime/flutter-multiplayer-shooting-game/pubspec.yaml
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/realtime/flutter-multiplayer-shooting-game/pubspec.yaml
   detection_source: examples/realtime/flutter-multiplayer-shooting-game/pubspec.yaml
   last_updated_by: dshukertjr
   last_updated_on: 2023-02-14 07:11:30.000000000 Z
@@ -2121,7 +2174,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: examples/user-management/flutter-user-management/pubspec.yaml
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/flutter-mfa/pubspec.yaml
+  detection_source: examples/auth/flutter-mfa/pubspec.yaml
   last_updated_by: dshukertjr
   last_updated_on: 2023-05-04 10:01:01.000000000 Z
 - name: flutter_svg
@@ -2133,7 +2187,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/auth/flutter-mfa/pubspec.yaml
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/flutter-mfa/pubspec.yaml
   detection_source: examples/auth/flutter-mfa/pubspec.yaml
   last_updated_by: dshukertjr
   last_updated_on: 2023-05-04 10:01:01.000000000 Z
@@ -2147,7 +2201,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/user-management/flutter-user-management/pubspec.yaml
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/user-management/flutter-user-management/pubspec.yaml
   detection_source: examples/user-management/flutter-user-management/pubspec.yaml
   last_updated_by: thorwebdev
   last_updated_on: 2022-10-19 15:24:01.000000000 Z
@@ -2159,12 +2213,13 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source: examples/user-management/flutter-user-management/android/app/build.gradle
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/auth/flutter-mfa/android/app/build.gradle
+  detection_source: examples/auth/flutter-mfa/android/app/build.gradle
   last_updated_by: dshukertjr
   last_updated_on: 2023-05-04 10:01:01.000000000 Z
 - name: matplotlib
   description: Python plotting package
-  package_url: https://pypi.org/matplotlib
+  package_url: https://pypi.org/project/matplotlib
   version: 3.7.1
   license: Python-2.0
   open_source: true
@@ -2172,7 +2227,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19853/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
-  detection_source_url: examples/ai/image_search/poetry.lock
+  detection_source_url: https://github.com/reconsumeralization/supabase/blob/master/examples/ai/image_search/poetry.lock
   detection_source: examples/ai/image_search/pyproject.toml
   last_updated_by: thorwebdev
   last_updated_on: 2023-05-29 06:18:27.000000000 Z
