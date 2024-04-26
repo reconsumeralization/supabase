@@ -3,17 +3,20 @@ TEAM
 Supabase is 100% remote.
 
 Alaister Young
+Alexander Korotkov
 Amy Q
-Andrew Smith
 Angelico de los Reyes
 Ant Wilson
 Ariuna K
 Beng Eu
 Bo Lu
 Bobbie Soedirgo
+Bruno Andrade
 Chandana Anumula
+Charis Lam
 Chase Granberry
 Chris Copplestone
+Chris Gwilliams
 Dave Wilson
 Div Arora
 Divit D
@@ -21,47 +24,57 @@ Egor Romanov
 Fabrizio Fenoglio
 Francesco Sansalvadore
 Greg Richardson
+Guilherme Souza
 Haydn Maley
 Hieu Pham
 Inian P
-Isaiah Hamilton
 Jess Shears
 Joel Lee
+John Pena
 Jon M
 Jonny Summers-Muir
+Jordi Enric
 Joshen Lim
+Kamil Ogórek
 Kang Ming Tay
+Karan S
 Karlo Ison
 Kevin Brolly
 Kevin Grüneberg
-Lakshmipathi G
+Lakshan Perera
 Laura C
-Leo T
 Long Hoang
 Margarita Sandomirskaia
-Marijana Šimag
+Marijana Pavlinić
 Mark Burggraf
-Michel Pelletier
 Monica El Khoury
 Nikita Kotlyarov
 Oli R
 Pamela Chia
+Paul Caselton
 Paul Cioanca
 Paul Copplestone
 Pavel Borisov
 Qiao Han
-Ramiro Nuñez Dosio
-Rodrigo Martins Mansueli
+Raminder Singh
+Rodrigo Mansueli
 Rory Wilding
+Sam Rose
 Sreyas Udayavarman
 Stanislav M
 Steve Chavez
 Stojan Dimitrovski
+Supun Sudaraka Kalidasa
 Terry Sutton
+Thomas E
 Thor Schaeff
+Tom Ashley
+Tyler Hillery
+Tyler Fontaine
 Tyler Shukert
 TzeYiing L
 Wen Bo Xie
+Yuri Santana
 ____________
 
 JOBS

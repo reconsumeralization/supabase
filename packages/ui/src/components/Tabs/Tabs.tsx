@@ -1,97 +1,149 @@
-import * as React from 'react'
-import { TabsContext } from './TabsContext'
-
 import * as TabsPrimitive from '@radix-ui/react-tabs'
 import { useRouter } from 'next/router'
+import {
+  Children,
+  type KeyboardEvent,
+  type MouseEvent,
+  PropsWithChildren,
+  useEffect,
+  useState,
+} from 'react'
 
-// @ts-ignore
-// import TabsStyles from './Tabs.module.css'
-
+import { TAB_CHANGE_EVENT_NAME } from '../../lib/events'
 import styleHandler from '../../lib/theme/styleHandler'
+import { useTabGroup } from './TabsProvider'
 
 interface TabsProps {
   type?: 'pills' | 'underlined' | 'cards' | 'rounded-pills'
   defaultActiveId?: string
   activeId?: string
   size?: 'tiny' | 'small' | 'medium' | 'large' | 'xlarge'
+  queryGroup?: string
   block?: boolean
   tabBarGutter?: number
   tabBarStyle?: React.CSSProperties
   onChange?: any
   onClick?: any
   scrollable?: boolean
+  wrappable?: boolean
   addOnBefore?: React.ReactNode
   addOnAfter?: React.ReactNode
   listClassNames?: string
-  children: PanelPropsProps[]
+  baseClassNames?: string
 }
 
 interface TabsSubComponents {
-  Panel: React.FC<PanelProps>
+  Panel: React.FC<PropsWithChildren<PanelProps>>
 }
 
-const Tabs: React.FC<TabsProps> & TabsSubComponents = ({
+const Tabs: React.FC<PropsWithChildren<TabsProps>> & TabsSubComponents = ({
   defaultActiveId,
   activeId,
   type = 'pills',
   size = 'tiny',
+  queryGroup,
   block,
   onChange,
   onClick,
   scrollable,
+  wrappable,
   addOnBefore,
   addOnAfter,
   listClassNames,
-  children,
+  baseClassNames,
+  children: _children,
 }) => {
-  const [activeTab, setActiveTab] = React.useState(
-    defaultActiveId
-      ? defaultActiveId
-      : // if no defaultActiveId is set use the first panel
-      children && children[0].props
-      ? children[0].props.id
-      : ''
-  )
+  // toArray is used here to filter out invalid children
+  // another method would be to use React.Children.map
+  const children = Children.toArray(_children) as PanelPropsProps[]
+  const tabIds = children.map((tab) => tab.props.id)
 
   const router = useRouter()
-  const hash = router?.asPath?.split('#')[1]?.toUpperCase()
+  const queryTabs = queryGroup ? router.query[queryGroup] : undefined
+  const [queryTabRaw] = Array.isArray(queryTabs) ? queryTabs : [queryTabs]
+  const queryTab = queryTabRaw && tabIds.includes(queryTabRaw) ? queryTabRaw : undefined
+
+  const [activeTab, setActiveTab] = useState(
+    queryTab ??
+      defaultActiveId ??
+      // if no defaultActiveId is set use the first panel
+      children?.[0]?.props?.id
+  )
+
+  useEffect(() => {
+    /**
+     * [Charis] The query param change is done by manual manipulation of window
+     * location and history, not by router.push (I think to avoid full-page
+     * rerenders). This doesn't reliably trigger rerender of all tabs on the
+     * page, possibly because it bypasses `useRouter`. The only way I could
+     * find of avoiding the full-page rerender but still reacting reliably to
+     * search param changes was to fire a CustomEvent.
+     */
+
+    function handleChange(e: CustomEvent) {
+      if (
+        e.detail.queryGroup &&
+        e.detail.queryGroup === queryGroup &&
+        tabIds.includes(e.detail.id)
+      ) {
+        setActiveTab(e.detail.id)
+        setGroupActiveId?.(e.detail.id)
+      }
+    }
+
+    window.addEventListener(TAB_CHANGE_EVENT_NAME, handleChange as EventListener)
+    return () => window.removeEventListener(TAB_CHANGE_EVENT_NAME, handleChange as EventListener)
+  }, [])
+
+  // If query param present for the query group, switch to that tab.
+  useEffect(() => {
+    if (queryTab) {
+      setActiveTab(queryTab)
+      setGroupActiveId?.(queryTab)
+    }
+  }, [queryTab])
 
   let __styles = styleHandler('tabs')
 
-  // activeId state can be overriden externally with `active`
-  // defaults to the first panelif we have one or url hash if not
-  const active = activeId ? activeId : activeTab ? activeTab : hash
+  const { groupActiveId, setGroupActiveId } = useTabGroup(tabIds)
 
-  function onTabClick(id: string) {
-    const newTabSelected = id !== active
+  const active = activeId ?? groupActiveId ?? activeTab
+
+  function onTabClick(currentTarget: EventTarget, id: string) {
     setActiveTab(id)
-    if (onClick) onClick(id)
-    if (onChange && newTabSelected) onChange(id)
-  }
+    setGroupActiveId?.(id)
 
-  // for styling the tabs for underline style
-  const underlined = type === 'underlined'
-  // for styling the tabs for cards style
+    if (queryGroup) {
+      const url = new URL(document.location.href)
+      if (!url.searchParams.getAll('queryGroups')?.includes(queryGroup))
+        url.searchParams.append('queryGroups', queryGroup)
+      url.searchParams.set(queryGroup, id)
+      window.history.replaceState(undefined, '', url)
+    }
+
+    currentTarget.dispatchEvent(
+      new CustomEvent(TAB_CHANGE_EVENT_NAME, { bubbles: true, detail: { queryGroup, id } })
+    )
+
+    onClick?.(id)
+    if (id !== active) {
+      onChange?.(id)
+    }
+  }
 
   const listClasses = [__styles[type].list]
   if (scrollable) listClasses.push(__styles.scrollable)
+  if (wrappable) listClasses.push(__styles.wrappable)
   if (listClassNames) listClasses.push(listClassNames)
 
-  // if only 1 react child, it needs to be converted to a list/array
-  // this is so 1 tab can be displayed
-  if (children && !Array.isArray(children)) {
-    children = [children]
-  }
-
   return (
-    <TabsPrimitive.Root defaultValue={defaultActiveId} value={active} className={__styles.base}>
+    <TabsPrimitive.Root value={active} className={[__styles.base, baseClassNames].join(' ')}>
       <TabsPrimitive.List className={listClasses.join(' ')}>
         {addOnBefore}
         {children.map((tab) => {
-          const activeMatch = active === tab.props.id
-
+          const isActive = active === tab.props.id
           const triggerClasses = [__styles[type].base, __styles.size[size]]
-          if (activeMatch) {
+          if (isActive) {
             triggerClasses.push(__styles[type].active)
           } else {
             triggerClasses.push(__styles[type].inactive)
@@ -102,26 +154,28 @@ const Tabs: React.FC<TabsProps> & TabsSubComponents = ({
 
           return (
             <TabsPrimitive.Trigger
-              onKeyDown={(e: any) => {
+              onKeyDown={(e: KeyboardEvent<HTMLButtonElement>) => {
                 if (e.keyCode === 13) {
                   e.preventDefault()
-                  onTabClick(tab.props.id)
+                  onTabClick(e.currentTarget, tab.props.id)
                 }
               }}
-              onClick={() => onTabClick(tab.props.id)}
+              onClick={(e: MouseEvent<HTMLButtonElement>) =>
+                onTabClick(e.currentTarget, tab.props.id)
+              }
               key={`${tab.props.id}-tab-button`}
               value={tab.props.id}
               className={triggerClasses.join(' ')}
             >
               {tab.props.icon}
               <span>{tab.props.label}</span>
+              {tab.props.iconRight}
             </TabsPrimitive.Trigger>
           )
         })}
-        {/* </Space> */}
         {addOnAfter}
       </TabsPrimitive.List>
-      <TabsContext.Provider value={{ activeId: active }}>{children}</TabsContext.Provider>
+      {children as any}
     </TabsPrimitive.Root>
   )
 }
@@ -135,23 +189,17 @@ interface PanelProps {
   id: string
   label?: string
   icon?: React.ReactNode
+  iconRight?: React.ReactNode
   className?: string
 }
 
-export const Panel: React.FC<PanelProps> = ({ children, id, className }) => {
+export const Panel: React.FC<PropsWithChildren<PanelProps>> = ({ children, id, className }) => {
   let __styles = styleHandler('tabs')
 
   return (
-    <TabsContext.Consumer>
-      {({ activeId }) => {
-        const active = activeId === id
-        return (
-          <TabsPrimitive.Content value={id} className={[__styles.content, className].join(' ')}>
-            {children}
-          </TabsPrimitive.Content>
-        )
-      }}
-    </TabsContext.Consumer>
+    <TabsPrimitive.Content value={id} className={[__styles.content, className].join(' ')}>
+      {children}
+    </TabsPrimitive.Content>
   )
 }
 

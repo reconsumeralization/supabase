@@ -4,6 +4,8 @@ description: Launching Supabase Storage and how you can use it in your apps
 author: inian
 image: storage/ph-1.png
 thumb: storage/ph-1.png
+categories:
+  - product
 tags:
   - supabase
   - storage
@@ -129,7 +131,7 @@ create policy crud_uid_file
 on storage.objects for all using (
 	bucket_id = 'avatars'
 	and name = 'folder/only_uid.jpg'
-	and auth.uid() = 'd8c7bce9-cfeb-497b-bd61-e66ce2cbdaa2'
+	and (select auth.uid()) = 'd8c7bce9-cfeb-497b-bd61-e66ce2cbdaa2'
 );
 ```
 
@@ -169,4 +171,4 @@ You may be itching to get started tinkering around with our new Supabase storage
 - A better editor to make authoring policies easier and less error prone.
 - Reach out to us if you would like to help out with adding storage support in one of the [community maintained client libraries](/docs/reference/javascript/installing).
 
-Take it for a spin on our [dashboard](https://app.supabase.com/) and let us know what you think!
+Take it for a spin on our [dashboard](https://supabase.com/dashboard/) and let us know what you think!
